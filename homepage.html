@@ -1,0 +1,174 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <title>Home page</title>
+  <style>
+    .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+  margin-left: 0;
+}
+
+.nysc-logo {
+  margin-bottom: 2px;
+  border-width: 1px;
+  padding-right: 10px;
+  margin-left: -5px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -327px;
+  color: #999;
+}
+
+.home-link {
+  padding-right: 20px;
+}
+.payment-link {
+  padding-right: 20px;
+}
+
+.red-tag {
+  background-color: #960000;
+  margin-bottom: 0;
+  height: 5px;
+  margin-left: -10px;
+  color: #2b943a;
+
+}
+
+.welcome-header {
+  font-family: Open Sans, sans-serif;
+  background-color: #2b943a;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  margin-left: -10px;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.gray-tag {
+  background-color: rgb(220, 204, 204);
+  margin-bottom: 0;
+  height: 5px;
+  margin-left: -10px;
+  margin-top: -24px;
+}
+
+.first-box {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(213, 209, 209);
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+  width: 700px;
+  box-shadow: 0 0 2px #999;
+  text-align: center;
+  display: inline-block;
+  /* padding-top: 100px; */
+  
+  /* flex-direction: row;
+  justify-content: space-between; */ 
+}
+
+.inner-text {
+  color: #535b60;
+  font-family: arial;
+  font-size: 20px;
+  
+  
+}
+
+.sign-in {
+ display: inline-block;
+ margin-left: 200px;
+ margin-top: 1px;
+
+}
+.login-text {
+  color:  #53555c;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center; */
+}
+.login-icon {
+ height: 70px;
+ width: 90px;
+ object-fit: contain;
+
+ /* display: flex;
+ flex-direction: row;
+ justify-content: center; */
+ 
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width:2000px;
+  flex-shrink: 0;
+}
+  </style>
+</head>
+<body>
+   <div class="header">
+      <div class="left-section">
+        <img class="nysc-logo" src="banner1.png" alt="">
+      </div>
+    <div class="right-section">
+      <div class="links">
+          <div class="home-link">Home</div>
+          <div class="payment-link" >Payment Status</div>
+          <div class="contact-link">Contact Us</div> 
+      </div>  
+    </div>
+   </div>
+
+   <div>
+    <div class="red-tag" ></div>
+    <h1 class="welcome-header">Welcome to the NYSC Portal</h1>
+    <div class="gray-tag"></div>
+  </div>
+
+  <div class="container">
+    <div class="first-box">
+    <p class="inner-text">No Active Registration</p>
+    </div>
+
+    <div class="sign-in">
+    <p class="login-text">Login Here</p>
+    <img class="login-icon" src="login.png" alt="">
+    </div>
+  </div>
+  
+
+ 
+</body>
+</html>
