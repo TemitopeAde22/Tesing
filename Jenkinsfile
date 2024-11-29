@@ -7,11 +7,13 @@ pipeline {
     }
 
     stages {
-        stage ("Hello") {
-            steps {
-                sh 'echo "Hello World"'
-            }
-        }
+     stage("Hello") {
+    steps {
+        sh 'echo "Hello World"'
+        sh "echo This is the ${params.BRANCH_NAME} branch, and the app is running on port ${params.PORT}"
+    }
+}
+
         stage('Check maven version') {
             steps {
                sh "echo print maven version"
