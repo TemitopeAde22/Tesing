@@ -7,6 +7,11 @@ pipeline {
     }
 
     stages {
+        stage ("Hello") {
+            steps {
+                sh 'echo "Hello World"'
+            }
+        }
         stage('Check maven version') {
             steps {
                sh "echo print maven version"
